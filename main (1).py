@@ -1,2 +1,0 @@
-print("Hello, World!")
-print("identitas");print("nama:Syafa z.n");print("umur:16 tahun"); print("alamat:kp.cisaradan"); print("asal sekolah:SMK.PGRI 35 SOLOKANJERUK");print("kelas:10 rpl 2");print("hobi:menggambar & dance")
