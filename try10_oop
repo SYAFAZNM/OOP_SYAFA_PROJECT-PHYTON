@@ -1,0 +1,2 @@
+nama = input("Syafa Zahratu Nisa")
+print("hallo",nama)
