@@ -1,0 +1,12 @@
+kecepatan=int(input("masukan kecepatan(dalam satuan mbps):"))
+
+kecepatan = kecepatan / 1000
+
+if kecepatan >50:
+  print("sangat cepat")
+elif kecepatan >20:
+  print("cepat")
+elif kecepatan >5:
+  print("sedang")
+else:
+  print("lambat")

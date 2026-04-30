@@ -1,0 +1,9 @@
+cuaca=int(input("masukan cuaca(dalam satuan celcius):"))
+
+Celcius=(cuaca-32)*5/9
+
+if Celcius>=30:
+  print("panas")
+  
+else:
+  print("dingin")
