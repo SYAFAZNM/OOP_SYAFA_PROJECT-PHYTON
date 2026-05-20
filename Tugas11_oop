@@ -1,0 +1,6 @@
+total = 0
+
+for i in range(1, 101):  # dari 1 sampai 100
+    total += i           # tambah i ke total
+
+print("Jumlah 1 sampai 100 adalah:", total)
