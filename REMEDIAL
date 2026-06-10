@@ -1,0 +1,19 @@
+# Inisialisasi variabel awal
+target_halaman = 300
+total_halaman = 0
+hari = 0
+
+# Perulangan akan terus berjalan SELAMA total halaman belum mencapai target
+while total_halaman < target_halaman:
+    hari += 1  # Menambah hitungan hari setiap perulangan
+    
+    # Meminta input jumlah halaman yang dibaca pada hari tersebut
+    halaman_per_hari = int(input(f"Hari {hari} : "))
+    
+    # Menambahkan halaman yang baru dibaca ke total akumulasi
+    total_halaman += halaman_per_hari
+
+# Menampilkan output setelah target tercapai dan perulangan selesai
+print("\nTarget membaca tercapai")
+print(f"Total halaman : {total_halaman}")
+print(f"Jumlah hari : {hari}")
